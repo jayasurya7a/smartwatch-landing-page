@@ -1,3 +1,56 @@
+:root{
+    --gradient:linear-gradient(90deg, #637CBB, #485E95);
+}
+
 *{
     font-family: 'Open Sans', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline:none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+*::selection{
+    background:#fff;
+    color:#333;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body{
+    background:#333;
+}
+
+section{
+    padding:0 7%;
+}
+
+.btn{
+    padding:.6rem 3rem;
+    font-size: 2rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    border:none;
+    background:var(--gradient);
+    color:#fff;
+}
+
+.btn:hover{
+    background:#fff;
+    color:#333;
+}
+
+.heading{
+    text-align: center;
+    font-size: 3rem;
+    color:#fff;
+    padding:1rem;
+    padding-top: 8.5rem;
+    width:50rem;
+    margin:0 auto;
 }
