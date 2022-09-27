@@ -351,3 +351,124 @@ header #menu{
     font-size: 3rem;
     color:#fff;
 }
+
+.contact{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 8.5rem;
+    padding-bottom: 4rem;
+}
+
+.contact form{
+    flex:1 1 40rem;
+    background:#444;
+    padding:3rem;
+    box-shadow: 0 0 1rem rgba(0,0,0,.5);
+}
+
+.contact form .box{
+    height:5rem;
+    width:100%;
+    background:none;
+    border:none;
+    border-bottom: .1rem solid #ccc;
+    font-size: 2rem;
+    margin:1rem 0;
+    color:#fff;
+    text-transform: none;
+}
+
+.contact form textarea{
+    height:15rem;
+    width:100%;
+    background:none;
+    border:none;
+    border-bottom: .1rem solid #ccc;
+    font-size: 2rem;
+    margin:1rem 0;
+    color:#fff;
+    text-transform: none;
+    resize: none;
+}
+
+.contact form .box::placeholder, .contact form textarea::placeholder{
+    text-transform: capitalize;
+}
+
+.contact form .box:focus, .contact form textarea:focus{
+    border-color: #637CBB;
+}
+
+.contact form .btn{
+    width:100%;
+}
+
+.contact .content{
+    flex:1 1 40rem;
+    padding:4rem;
+}
+
+.contact .content h3{
+    font-size: 4rem;
+    color:#fff;
+}
+
+.contact .content p{
+    font-size: 1.4rem;
+    color:#eee;
+    padding:1rem 0;
+}
+
+.contact .content .icons{
+    display: flex;
+    align-items: center;
+}
+
+.contact .content .icons p{
+    font-size: 2rem;
+    color:#fff;
+}
+
+.contact .content .icons i{
+    font-size: 2rem;
+    color:#637CBB;
+    padding-right: 1rem;
+}
+
+.footer{
+    background:#222;
+    text-align: center;
+}
+
+.footer .share{
+    padding:1rem 0;
+}
+
+.footer .share h3{
+    font-size: 3rem;
+    color:#fff;
+}
+
+.footer .share a{
+    font-size: 3rem;
+    color:#fff;
+    margin:3rem 1.4rem;
+}
+
+.footer .share a:hover{
+    color:#637CBB
+}
+
+.footer .credit{
+    padding:2rem 1rem;
+    color:#fff;
+    background:#111;
+    text-align: center;
+    font-size: 2rem;
+
+    padding-bottom: 9rem;
+
+}
